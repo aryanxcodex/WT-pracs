@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="registrationContainer">
+        <h2 class="formTitle">Registration Form</h2>
+            <form class="registrationForm" action="#" method="POST">
+                <div class="inputContainer">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="name" name="name" class="formInput" placeholder="Name" required>
+                </div>
+    
+                <div class="inputContainer">
+                    <i class="fas fa-user-circle"></i>
+                    <input type="text" id="username" name="username" class="formInput" placeholder="Username" required>
+                </div>
+    
+                <div class="inputContainer">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" name="email" class="formInput" placeholder="Email" required>
+                </div>
+    
+                <div class="inputContainer">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" id="phone" name="phone" class="formInput" placeholder="Phone Number" required>
+                </div>
+    
+                <div class="inputContainer">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" name="password" class="formInput" placeholder="Password" required>
+                </div>
+    
+                <div class="inputContainer">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="confirmPassword" name="confirmPassword" class="formInput" placeholder="Confirm Password" required>
+                </div>
+    
+                <button type="submit" class="submitButton">Register</button>
+            </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
